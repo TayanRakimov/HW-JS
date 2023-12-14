@@ -44,9 +44,19 @@ for (let i = 0; i < arr.length; i++) {
 
 
 
-function getname() {
-    var name= "Василий";
-    var name;
+// function getname(name) {
+    
+//     alert("Привет, " + name);
+//     if(name === underfined)
+//     {
+//         alert=("Привет, гость");
+//     }
+// }
+// getname();
+
+
+function getname(name = 'гость') {
+    
     alert("Привет, " + name);
     if(name === underfined)
     {
