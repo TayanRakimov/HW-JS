@@ -1,0 +1,11 @@
+.elem1{
+    border: 1px solid gray;
+    padding: 13px;
+    width: 500px;
+}
+
+.elem1 button{
+    border: 0;
+    background-color: aquamarine;
+    padding: 10px 17px;
+}
